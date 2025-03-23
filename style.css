@@ -1,0 +1,76 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s ease;
+}
+
+form{
+
+    width: 80%;
+    height: 500px;
+    border: 4px solid rgb(201, 12, 243);
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-top: 5%;
+    background-color: hsla(271, 96%, 47%, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 0 10px violet,
+                0 0 15px violet, 
+                0 0 20px violet,
+                0 0 25px violet,
+                0 0 30px violet;
+}
+
+h1{
+
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    font-family: cursive;
+    color: rgb(0, 26, 255);
+    text-shadow: 7px 7px 5px rgb(77, 199, 255);
+}
+
+input{
+
+    width: 60%;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 25px;
+    text-indent: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    color: cornflowerblue;
+    border: 3px inset blue;
+    border-radius: 10px;
+}
+
+#email{
+
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+#lbtn{
+
+    margin-top: 70px;
+    width: 20%;
+    margin-left: 40%;
+    font-size: 26px;
+    border-radius: 20px;
+    background-color: rgb(157, 30, 242);
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    box-shadow: 8px 8px 10px rgb(29, 13, 38);
+    border: none;
+}
+
+#lbtn:hover{
+
+    background-color: rgb(62, 0, 119);
+    color: white;
+}
